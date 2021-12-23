@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf4ex"
+		},
+		"ADLSlinked_accountKey": {
+			"value": ""
+		},
+		"AzureBlob_connectionString": {
+			"value": ""
+		},
+		"RestService1_password": {
+			"value": ""
+		},
+		"SSLinkedService_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"inputblob_connectionString": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"outputsql_connectionString": {
+			"value": ""
+		},
+		"ADLSlinked_properties_typeProperties_url": {
+			"value": "https://adlsstorageaccc.dfs.core.windows.net"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://world.openfoodfacts.org/api/v0/product/737628064502.json"
+		},
+		"RestService1_properties_typeProperties_userName": {
+			"value": "buddytheadmin"
+		}
+	}
+}
