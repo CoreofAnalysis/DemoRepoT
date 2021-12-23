@@ -1,0 +1,70 @@
+{
+	"name": "AzureSqlTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "outputsql",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "S"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "GeographyKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "City",
+				"type": "nvarchar"
+			},
+			{
+				"name": "StateProvinceCode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "StateProvinceName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CountryRegionCode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EnglishCountryRegionName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SpanishCountryRegionName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "FrenchCountryRegionName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PostalCode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SalesTerritoryKey",
+				"type": "nvarchar"
+			},
+			{
+				"name": "IpAddressLocator",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CODENAME",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "fullGeo"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

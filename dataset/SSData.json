@@ -1,0 +1,16 @@
+{
+	"name": "SSData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SSLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "S"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

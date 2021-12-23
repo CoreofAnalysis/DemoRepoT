@@ -1,0 +1,9 @@
+{
+	"name": "adf4ex",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cddbd769-927d-4b58-be55-eb6160206cca",
+		"tenantId": "76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61"
+	}
+}

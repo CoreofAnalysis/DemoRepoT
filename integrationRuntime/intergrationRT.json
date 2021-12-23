@@ -1,0 +1,6 @@
+{
+	"name": "intergrationRT",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
